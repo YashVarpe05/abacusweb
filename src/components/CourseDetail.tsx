@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import abacusImage from "/src/assets/img/360_F_66101698_E6pVObW2WsQcAa56eFOJpI54BFbCDkGI.webp";
+import abacus1 from "../assets/img/abacus1.jpg";
+import abacus2 from "../assets/img/abacus2.jpg";
+import abacus3 from "../assets/img/abacus3.jpg";
+import handwritingImage from "../assets/img/handwritting.webp";
+import handwriting1 from "../assets/img/handwriting1.jpg";
+import handwriting2 from "../assets/img/handwriting2.jpg";
+import handwriting3 from "../assets/img/handwriting3.jpg";
 import { useParams } from "react-router-dom";
-import Footer from "./Footer";
+import { useState } from "react"; // Correct usage for React hooks
+
 const courseData = {
 	abacus: {
+		id: 1,
 		title: "Abacus",
 		description: `The ABACUS course is designed for children aged 4 to 13, enhancing brain development, focus, and mathematical skills. The curriculum covers operations like addition, subtraction, multiplication, division, and decimal counting.`,
 		highlights: [
@@ -19,15 +28,11 @@ const courseData = {
 			"Time Management (3 min, 5 min)",
 			"20% to 30% study Growth",
 		],
-		image:
-			"/src/assets/img/360_F_66101698_E6pVObW2WsQcAa56eFOJpI54BFbCDkGI.webp", // Update paths if needed
-		additionalImages: [
-			"/src/assets/img/abacus1.jpg",
-			"/src/assets/img/abacus2.jpg",
-			"/src/assets/img/abacus3.jpg",
-		],
+		image: abacusImage,
+		additionalImages: [abacus1, abacus2, abacus3],
 	},
 	"handwriting-improvement": {
+		id: 2,
 		title: "Handwriting Improvement Course",
 		description: `The Handwriting Improvement Course focuses on enhancing writing skills, including cursive, script, and speed writing techniques. This course is designed to improve legibility, speed, and the overall appearance of handwriting, providing benefits in academic, professional, and personal communication.`,
 		highlights: [
@@ -35,12 +40,8 @@ const courseData = {
 			"Interactive sessions with personalized coaching",
 			"Improves academic and professional communication",
 		],
-		image: "/src/assets/img/handwriting.webp",
-		additionalImages: [
-			"/src/assets/img/handwriting1.jpg",
-			"/src/assets/img/handwriting2.jpg",
-			"/src/assets/img/handwriting3.jpg",
-		],
+		image: handwritingImage,
+		additionalImages: [handwriting1, handwriting2, handwriting3],
 	},
 };
 
