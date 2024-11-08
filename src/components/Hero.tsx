@@ -1,5 +1,6 @@
 import React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom"; // Import Link for routing
 
 const slides = [
 	{
@@ -7,7 +8,7 @@ const slides = [
 			"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=80",
 		title: "Welcome to Wonder Kidz Learning Academy!",
 		subtitle:
-			"Wonder Kidz offersthe best course with the concepts of quality training and better understanding ",
+			"Wonder Kidz offers the best course with the concepts of quality training and better understanding",
 	},
 	{
 		image:
@@ -62,12 +63,18 @@ export default function Hero() {
 							{slide.subtitle}
 						</p>
 						<div className="flex space-x-4">
-							<button className="bg-indigo-600 text-white px-8 py-3 rounded-md hover:bg-indigo-700 transition">
+							<Link
+								to="/programs" // Navigate to Programs page
+								className="bg-indigo-600 text-white px-8 py-3 rounded-md hover:bg-indigo-700 transition"
+							>
 								Explore Programs
-							</button>
-							<button className="bg-white text-indigo-600 px-8 py-3 rounded-md hover:bg-gray-100 transition">
+							</Link>
+							<Link
+								to="/about" // Navigate to About page
+								className="bg-white text-indigo-600 px-8 py-3 rounded-md hover:bg-gray-100 transition"
+							>
 								Learn More
-							</button>
+							</Link>
 						</div>
 					</div>
 				</div>
