@@ -27,9 +27,9 @@ const App: React.FC = () => {
 								<Hero />
 								<Programs />
 								<Counter />
+								<Achievementsslider />
 								<Faculty />
 								{/* <Achievements /> */}
-								<Achievementsslider />
 								<Footer />
 							</>
 						}
