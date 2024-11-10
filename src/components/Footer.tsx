@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/logo.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
 	return (
@@ -15,8 +16,7 @@ export default function Footer() {
 						/>
 					</h2>
 					<p className="text-gray-200 text-lg">
-						Your company tagline goes here. Inspire and engage with your users
-						through meaningful experiences.
+						Scripting Elegance , Crafting Characters
 					</p>
 					<div className="flex space-x-4">
 						{/* Social Icons */}
@@ -49,41 +49,47 @@ export default function Footer() {
 
 				{/* Quick Links */}
 				<div className="space-y-4">
-					<h3 className="text-xl font-semibold">Quick Links</h3>
-					<ul className="space-y-2 text-gray-200">
-						<li>
-							<a
-								href="/about"
-								className="hover:text-gray-300 transition duration-300"
-							>
-								About Us
-							</a>
-						</li>
-						<li>
-							<a
-								href="/services"
-								className="hover:text-gray-300 transition duration-300"
-							>
-								Services
-							</a>
-						</li>
-						<li>
-							<a
-								href="/courses"
-								className="hover:text-gray-300 transition duration-300"
-							>
-								Courses
-							</a>
-						</li>
-						<li>
-							<a
-								href="/contact"
-								className="hover:text-gray-300 transition duration-300"
-							>
-								Contact Us
-							</a>
-						</li>
-					</ul>
+					<h3 className="text-lg font-semibold">Quick Links</h3>
+					<div>
+						<ul className="space-y-2">
+							<li>
+								<Link
+									to="/about"
+									className="hover:text-gray-300 transition duration-300"
+								>
+									About Us
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="/programs"
+									className="hover:text-gray-300 transition duration-300"
+								>
+									Programs
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="/achievements"
+									className="hover:text-gray-300 transition duration-300"
+								>
+									Achievements
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="/contact"
+									className="hover:text-gray-300 transition duration-300"
+								>
+									Contact Us
+								</Link>
+							</li>
+						</ul>
+						<p className="text-sm">
+							© {new Date().getFullYear()} Your Company Name. All rights
+							reserved.
+						</p>
+					</div>
 				</div>
 
 				{/* Newsletter Signup */}
@@ -128,7 +134,7 @@ export default function Footer() {
 			{/* Bottom Section */}
 			<div className="mt-1     border-t border-gray-500 pt-6 text-center">
 				<p className="text-gray-200 text-sm">
-					© 2024 YourCompany. All Rights Reserved.
+					© 2024 Eternal classes. All Rights Reserved.
 				</p>
 			</div>
 		</footer>

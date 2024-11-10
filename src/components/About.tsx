@@ -12,12 +12,12 @@ import faculty from "../assets/img/reward4.jpg";
 import Infrastructure from "../assets/img/infrastructure.avif";
 import Opportunities from "../assets/img/Opportunities1.jpg";
 import Footer from "./Footer";
-
+import Wonderkids from "../assets/img/wonder-kids-logo-mobile.png";
 const About: React.FC = () => {
 	return (
 		<>
 			<section className="bg-gray-200 py-16 px-8">
-				<div className="max-w-screen-xl mx-auto text-center space-y-16">
+				<div className="max-w-screen-xl mx-auto text-center space-y-16 ">
 					{/* Section Header with Background Image */}
 					<div
 						className="relative mb-16 bg-cover bg-center h-96 rounded-xl"
@@ -26,7 +26,7 @@ const About: React.FC = () => {
 						}}
 					>
 						<div className="absolute inset-0 bg-black opacity-50 rounded-xl"></div>
-						<h2 className="relative text-4xl font-extrabold text-white z-10 pt-32">
+						<h2 className="relative text-4xl font-extrabold text-white z-10 pt-32 mt-8">
 							About Us
 						</h2>
 						<p className="relative text-xl text-white z-10 mt-4">
@@ -114,6 +114,15 @@ const About: React.FC = () => {
 						<h3 className="text-3xl font-semibold">
 							Collaborating to Wonder Kidz
 						</h3>
+						<div className="flex items-center justify-center">
+							<a href="https://wonderkidzlearningacademy.com/">
+								<img
+									src={Wonderkids}
+									alt=""
+									className="items-center w-[20vw]"
+								/>
+							</a>
+						</div>
 						<p className="text-lg">
 							<strong>Eternal Classes</strong> has partnered with{" "}
 							<strong>Wonder Kidz</strong> to nurture and empower young learners
