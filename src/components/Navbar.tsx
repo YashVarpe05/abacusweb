@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, GraduationCap } from "lucide-react";
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logobg.png";
 const Navbar: React.FC = () => {
 	const [isOpen, setIsOpen] = useState(false);
 
@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
 						<Link to="/" className="flex items-center">
 							<img
 								src={logo}
-								className="h-20 w-auto max-h-16 object-contain"
+								className="h-[6rem] w-auto max-h-15 object-contain"
 								alt=""
 							></img>
 						</Link>

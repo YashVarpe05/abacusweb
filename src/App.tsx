@@ -12,25 +12,12 @@ import CourseDetail from "./components/CourseDetail"; // Import the CourseDetail
 import Footer from "./components/Footer";
 import Popup from "./components/Popup";
 import imageUrl from "./assets/img/bannerad.jpg";
-
+import Counter from "./components/Counter";
+import Achievementsslider from "./components/Achievementsslider";
 const App: React.FC = () => {
-	const [showPopup, setShowPopup] = useState(false);
-
-	useEffect(() => {
-		// Check if popup has already been shown in this session
-		if (!sessionStorage.getItem("popupShown")) {
-			setShowPopup(true);
-			sessionStorage.setItem("popupShown", "true");
-		}
-	}, []);
-
-	const handleClosePopup = () => {
-		setShowPopup(false);
-	};
-
 	return (
 		<Router>
-			<div className="min-h-screen bg-white">
+			<div className="min-h-screen bg-gray-200">
 				<Navbar />
 				<Routes>
 					<Route
@@ -39,8 +26,10 @@ const App: React.FC = () => {
 							<>
 								<Hero />
 								<Programs />
+								<Counter />
 								<Faculty />
-								<Achievements />
+								{/* <Achievements /> */}
+								<Achievementsslider />
 								<Footer />
 							</>
 						}
@@ -53,11 +42,6 @@ const App: React.FC = () => {
 					{/* Define a dynamic route for course details */}
 					<Route path="/course/:courseId" element={<CourseDetail />} />
 				</Routes>
-				<div>
-					{showPopup && (
-						<Popup imageUrl={imageUrl} onClose={handleClosePopup} />
-					)}
-				</div>
 			</div>
 		</Router>
 	);

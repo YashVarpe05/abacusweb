@@ -64,7 +64,7 @@ export default function CourseDetail() {
 
 	return (
 		<>
-			<div className="max-w-5xl mx-auto p-8 bg-gradient-to-b from-white to-gray-100 shadow-lg rounded-lg">
+			<div className="max-w-5xl mx-auto p-8 bg-gradient-to-b bg-gray-200 from-white to-gray-100 shadow-lg rounded-lg">
 				{/* Course Header */}
 				<div className="flex flex-col lg:flex-row items-center lg:space-x-8 mt-28">
 					<img

@@ -16,7 +16,7 @@ import Footer from "./Footer";
 const About: React.FC = () => {
 	return (
 		<>
-			<section className="bg-gray-100 py-16 px-8">
+			<section className="bg-gray-200 py-16 px-8">
 				<div className="max-w-screen-xl mx-auto text-center space-y-16">
 					{/* Section Header with Background Image */}
 					<div
@@ -41,8 +41,9 @@ const About: React.FC = () => {
 								Our Mission
 							</h3>
 							<p className="text-lg text-gray-600">
-								Our mission is to cultivate leaders who can innovate and excel
-								in every aspect of their careers.
+								To empower young minds with the essential skills of mental
+								arithmetic and beautiful handwriting, fostering confidence,
+								discipline, and a lifelong love for learning.
 							</p>
 							<div className="mt-6">
 								<img
@@ -57,8 +58,7 @@ const About: React.FC = () => {
 								Our Vision
 							</h3>
 							<p className="text-lg text-gray-600">
-								We aim to create a knowledge-sharing environment that transcends
-								borders and fosters global collaboration.
+								Be the first choice "Eternal classes"
 							</p>
 							<div className="mt-6">
 								<img
@@ -105,6 +105,28 @@ const About: React.FC = () => {
 									With an extensive global network of alumni, we open doors to
 									international opportunities and collaborations.
 								</p>
+							</div>
+						</div>
+					</div>
+
+					{/* Collaboration Highlight Section */}
+					<div className="bg-gradient-to-r from-blue-600 to-purple-700 text-white p-8 rounded-lg shadow-lg mt-16 space-y-6">
+						<h3 className="text-3xl font-semibold">
+							Collaborating to Wonder Kidz
+						</h3>
+						<p className="text-lg">
+							<strong>Eternal Classes</strong> has partnered with{" "}
+							<strong>Wonder Kidz</strong> to nurture and empower young learners
+							through engaging activities and workshops.
+						</p>
+						<p className="text-lg">
+							This collaboration provides children with opportunities to grow,
+							learn, and explore their creative potential, demonstrating our
+							shared commitment to building a brighter future.
+						</p>
+						<div className="flex flex-wrap justify-center items-center gap-8 mt-8">
+							<div className="text-center">
+								<p className="text-lg font-medium">Wonder Kidz</p>
 							</div>
 						</div>
 					</div>
@@ -159,11 +181,11 @@ const About: React.FC = () => {
 									<FaGlobeAmericas />
 								</div>
 								<h4 className="text-2xl font-semibold text-gray-800 mb-4">
-									Global Opportunities
+									Networking Opportunities
 								</h4>
 								<p className="text-lg text-gray-600">
-									With a vast global network, you can access international
-									internships, research, and career opportunities.
+									Connect with a vast network of alumni and professionals around
+									the world.
 								</p>
 							</div>
 						</div>

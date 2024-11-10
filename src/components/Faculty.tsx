@@ -13,34 +13,34 @@ const faculty = [
 		name: "Pallavi Bachhav.",
 		role: " Founder of Eternal classes.",
 		image: founder,
-		bio: "20+ years of experience in AI and Machine Learning",
+		bio: "7+ years of experience in abacus and handwriting expert",
 	},
 	{
-		name: "Prof. Michael Chen",
+		name: "Shital Rajendra Lokhande",
 		role: "Teacher",
 		image: teacher1,
 		bio: "BE Computer",
 	},
 	{
-		name: "Dr. Emily Williams",
+		name: "Anjali Vijay more",
 		role: "Teacher",
 		image: teacher2,
 		bio: "M.A.Bed",
 	},
 	{
-		name: "Prof. David Kim",
+		name: "Archana sudhir Lokhande ",
 		role: "Teacher",
 		image: teacher3,
 		bio: "BA",
 	},
 	{
-		name: "Prof. David Kim",
+		name: " Priti Pankaj Karan",
 		role: "Teacher",
 		image: teacher4,
 		bio: "BE(Computer)",
 	},
 	{
-		name: "Prof. David Kim",
+		name: "Nayana Bhalerao ",
 		role: "Teacher",
 		image: teacher5,
 		bio: "B.C.A",
@@ -50,7 +50,7 @@ const faculty = [
 export default function Faculty() {
 	return (
 		<>
-			<section className="py-20 bg-white" id="faculty">
+			<section className="py-20 bg-gray-200" id="faculty">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="text-center mb-16">
 						<h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -81,20 +81,6 @@ export default function Faculty() {
 									</h3>
 									<p className="text-indigo-600 mb-2">{member.role}</p>
 									<p className="text-gray-600 text-sm mb-4">{member.bio}</p>
-									<div className="flex space-x-4">
-										<a
-											href={member.linkedin}
-											className="text-gray-600 hover:text-indigo-600 transition"
-										>
-											<Linkedin className="w-5 h-5" />
-										</a>
-										<a
-											href={`mailto:${member.email}`}
-											className="text-gray-600 hover:text-indigo-600 transition"
-										>
-											<Mail className="w-5 h-5" />
-										</a>
-									</div>
 								</div>
 							</div>
 						))}

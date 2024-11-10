@@ -6,15 +6,15 @@ const slides = [
 	{
 		image:
 			"https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=1920&q=80",
-		title: "Welcome to Wonder Kidz Learning Academy!",
+		title: "Welcome to Eternal Classes",
 		subtitle:
-			"Wonder Kidz offers the best course with the concepts of quality training and better understanding",
+			"Eternal Classes offers the best course with the concepts of quality training and better understanding",
 	},
 	{
 		image:
 			"https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1920&q=80",
 		title: "World-Class Education",
-		subtitle: "Learn from Industry Experts",
+		subtitle: "Scripting Elegance , Crafting Character",
 	},
 	{
 		image:

@@ -9,21 +9,21 @@ const programs = [
 		title: "Abacus",
 		description: "Abacus is totally Brain Development Scores",
 		icon: BookOpen,
-		stats: { duration: "3 Months", students: "150+", placement: "95%" },
+		stats: { duration: "3 Months", students: "5000+" },
 	},
 	{
 		id: "handwriting-improvement", // Unique identifier for routing
 		title: "Handwriting Improvement Course",
 		description: "Cursive Handwriting, Script Handwriting, Speed Handwriting",
 		icon: Users,
-		stats: { duration: "20 days", students: "150+", placement: "92%" },
+		stats: { duration: "20 days", students: "5000+" },
 	},
 ];
 
 export default function Programs() {
 	return (
 		<>
-			<section className="py-20 bg-gray-50" id="programs">
+			<section className="py-20 bg-gray-200" id="programs">
 				<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 					<div className="text-center mb-16">
 						<h2 className="text-4xl font-bold text-gray-900 mb-4">
