@@ -92,25 +92,7 @@ export default function Footer() {
 					</div>
 				</div>
 
-				{/* Newsletter Signup */}
-				<div className="space-y-4">
-					<h3 className="text-xl font-semibold">Newsletter</h3>
-					<p className="text-gray-200">
-						Stay updated with the latest news, courses, and offers. Subscribe to
-						our newsletter.
-					</p>
-					<form className="flex flex-col space-y-4">
-						<input
-							type="email"
-							placeholder="Your Email Address"
-							className="px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-						/>
-						<button className="px-6 py-3 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition duration-300">
-							Subscribe
-						</button>
-					</form>
-				</div>
-
+				
 				{/* Contact Information */}
 				<div className="space-y-4">
 					<h3 className="text-xl font-semibold">Contact Us</h3>
