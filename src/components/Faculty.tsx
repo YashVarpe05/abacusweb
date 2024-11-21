@@ -5,7 +5,7 @@ import teacher3 from "../assets/img/teacher3.jpg";
 import teacher4 from "../assets/img/teacher4.jpg";
 import teacher5 from "../assets/img/teacher5.jpg";
 import founder from "../assets/img/founder.jpg";
-
+import teacher6 from "../assets/img/teacher7.jpeg";
 const faculty = [
 	{
 		name: "Shital Rajendra Lokhande",
@@ -45,6 +45,13 @@ const faculty = [
 		bio: "B.C.A",
 		address:
 			"Mould Gold pre-Schhol Sr. No. 266, plot no. 116, Near krushna Pooja Textile, Dindori Road, Mhasrul ,Nashik-422004",
+	},
+	{
+		name: "Ritika Pawar",
+		role: "Teacher",
+		image: teacher6,
+		bio: "B.Com",
+		address: "plot 25, Opposite metrozone,Dnyaneshwar nagar . Pathardi phata",
 	},
 ];
 

@@ -5,6 +5,22 @@ import tour1 from "../assets/img/tour1.jpeg";
 import tour2 from "../assets/img/tour2.jpeg";
 import tour3 from "../assets/img/tour3.jpeg";
 import tour4 from "../assets/img/tour4.jpeg";
+import reward1 from "../assets/img/reward1.jpg";
+import reward2 from "../assets/img/reward2.jpg";
+import reward3 from "../assets/img/reward3.jpg";
+import reward4 from "../assets/img/reward4.jpg";
+import reward5 from "../assets/img/reward5.jpg";
+import reward6 from "../assets/img/reward6.jpg";
+import reward7 from "../assets/img/reward7.jpg";
+import reward8 from "../assets/img/reward8.jpg";
+import reward9 from "../assets/img/reward9.jpg";
+import reward10 from "../assets/img/reward10.jpeg";
+import abacusbg from "../assets/img/clssroomimg.jpeg";
+import slider1 from "../assets/img/slider.jpeg";
+import slider2 from "../assets/img/slider2.jpeg";
+import slider3 from "../assets/img/slider3.jpeg";
+import slider4 from "../assets/img/slider4.jpeg";
+
 import classroomimg1 from "../assets/img/classroomimg2.jpeg";
 import classrooming2 from "../assets/img/clssroomimg.jpeg";
 const slides = [
@@ -26,6 +42,48 @@ const slides = [
 	{
 		image: classrooming2,
 	},
+	{
+		image: reward1,
+	},
+	{
+		image: reward2,
+	},
+	{
+		image: reward3,
+	},
+	{
+		image: reward4,
+	},
+	{
+		image: reward5,
+	},
+	{
+		image: reward6,
+	},
+	{
+		image: reward7,
+	},
+	{
+		image: reward8,
+	},
+	{
+		image: reward9,
+	},
+	{
+		image: reward10,
+	},
+	{
+		image: slider1,
+	},
+	{
+		image: slider2,
+	},
+	{
+		image: slider3,
+	},
+	{
+		image: slider4,
+	},
 ];
 
 export default function Hero() {
@@ -46,8 +104,8 @@ export default function Hero() {
 
 	return (
 		<>
-			<h2 className="text-5xl font-bold text-center bg-gray-200 text-gray-800">
-				Our Tours
+			<h2 className="text-5xl font-bold text-center bg-gray-200 text-gray-800 mb-16">
+				Gallery
 			</h2>
 			<div
 				className="relative h-[80vh] bg-gray-200 w-full overflow-hidden"

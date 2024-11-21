@@ -12,57 +12,43 @@ import reward8 from "../assets/img/reward8.jpg";
 import reward9 from "../assets/img/reward9.jpg";
 import reward10 from "../assets/img/reward10.jpeg";
 import abacusbg from "../assets/img/clssroomimg.jpeg";
+import slider1 from "../assets/img/slider.jpeg";
+import slider2 from "../assets/img/slider2.jpeg";
+import slider3 from "../assets/img/slider3.jpeg";
+import slider4 from "../assets/img/slider4.jpeg";
+import slider5 from "../assets/img/slider5.jpeg";
+import slider6 from "../assets/img/slider6.jpeg";
 const slides = [
 	{
-		image: reward1,
+		image: slider1,
 		title: "Welcome to Eternal Classes",
 		subtitle:
 			"Eternal Classes offers the best course with the concepts of quality training and better understanding",
 	},
 	{
-		image: reward2,
+		image: slider2,
 		title: "World-Class Education",
 		subtitle: "Scripting Elegance, Crafting Character",
 	},
 	{
-		image: reward3,
+		image: slider3,
 		title: "Innovation Hub",
 		subtitle: "Where Ideas Come to Life",
 	},
 	{
-		image: reward4,
+		image: slider4,
 		title: "Eternal Classes",
 		subtitle: "Empowering Minds, Shaping Futures",
 	},
 	{
-		image: reward5,
+		image: slider5,
 		title: "Eternal Classes",
 		subtitle: "Unlocking Potential, Inspiring Excellence",
 	},
 	{
-		image: reward6,
+		image: slider6,
 		title: "Eternal Classes",
-		subtitle: "Where Learning Meets Innovation",
-	},
-	{
-		image: reward7,
-		title: "Eternal Classes",
-		subtitle: "Transforming Education, Transforming Lives",
-	},
-	{
-		image: reward8,
-		title: "Eternal Classes",
-		subtitle: "Nurturing Talent, Building Leaders",
-	},
-	{
-		image: reward9,
-		title: "Eternal Classes",
-		subtitle: "Excellence in Education, Excellence in Life",
-	},
-	{
-		image: reward10,
-		title: "Eternal Classes",
-		subtitle: "Empowering Minds, Enriching Lives",
+		subtitle: "Building Confidence, Enhancing Creativity",
 	},
 ];
 
@@ -92,7 +78,7 @@ export default function Hero() {
 							index === currentSlide ? "opacity-100" : "opacity-0"
 						}`}
 					>
-						<div className="absolute inset-0 bg-black/50 z-10" />
+						<div className="absolute inset-0 bg-black/10 z-10" />
 						<img
 							src={slide.image}
 							alt={slide.title}
@@ -153,12 +139,13 @@ export default function Hero() {
 					{/* Text Content */}
 					<div className="space-y-6">
 						<h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-							Empower Minds with Abacus Mastery
+							Empower Young Minds with Abacus and Handwriting Mastery
 						</h2>
 						<p className="text-lg md:text-xl text-gray-700">
-							Discover the joy of learning math and mental skills with our
-							expert-led classes designed for every age. Let’s unlock potential
-							and build confidence together.
+							Join our expert-led classes designed to unlock your child's
+							potential in mental arithmetic and handwriting skills. Build
+							confidence, enhance creativity, and discover the joy of learning
+							with us.
 						</p>
 						<div className="flex space-x-4">
 							<Link
@@ -177,14 +164,6 @@ export default function Hero() {
 					</div>
 
 					{/* Visual Content */}
-					<div className="relative">
-						<div className="absolute inset-0 bg-indigo-100 rounded-full blur-3xl opacity-50"></div>
-						<img
-							src={abacusbg} // Replace with your abacus image
-							alt="Abacus Learning"
-							className="relative w-full max-w-md mx-auto md:max-w-lg lg:max-w-xl"
-						/>
-					</div>
 				</div>
 			</div>
 		</>
