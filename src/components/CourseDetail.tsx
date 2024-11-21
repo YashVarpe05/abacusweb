@@ -8,6 +8,10 @@ import handwriting2 from "../assets/img/handwriting2.jpg";
 import handwriting3 from "../assets/img/handwriting3.jpg";
 import { useParams } from "react-router-dom";
 import { useState } from "react"; // Correct usage for React hooks
+import handwriting4 from "../assets/img/handwritinghindi1.jpg";
+import handwriting5 from "../assets/img/marathihandwriting.jpg";
+import handwriting6 from "../assets/img/marathihandwriting2.jpg";
+import handwriting7 from "../assets/img/marathihandwriting3.jpg";
 
 const courseData = {
 	abacus: {
@@ -33,7 +37,7 @@ const courseData = {
 	},
 	"handwriting-improvement": {
 		id: 2,
-		title: "Handwriting Improvement Course",
+		title: "Handwriting Improvement Course (English, Hindi, Marathi)",
 		description: `The Handwriting Improvement Course focuses on enhancing writing skills, including cursive, script, and speed writing techniques. This course is designed to improve legibility, speed, and the overall appearance of handwriting, providing benefits in academic, professional, and personal communication.`,
 		highlights: [
 			"Cursive, script, and speed handwriting training",
@@ -41,7 +45,15 @@ const courseData = {
 			"Improves academic and professional communication",
 		],
 		image: handwritingImage,
-		additionalImages: [handwriting1, handwriting2, handwriting3],
+		additionalImages: [
+			handwriting1,
+			handwriting2,
+			handwriting3,
+			handwriting4,
+			handwriting5,
+			handwriting6,
+			handwriting7,
+		],
 	},
 };
 

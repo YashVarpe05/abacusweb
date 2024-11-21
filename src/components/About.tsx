@@ -4,6 +4,8 @@ import {
 	FaBuilding,
 	FaGlobeAmericas,
 	FaUniversity,
+	FaUserGraduate,
+	FaHandsHelping,
 } from "react-icons/fa";
 import aboutsusbanner from "../assets/img/about-us-page.png";
 import vision from "../assets/img/vision.webp";
@@ -143,58 +145,66 @@ const About: React.FC = () => {
 					{/* Why Choose Us? With Icon Buttons */}
 					<div className="space-y-12">
 						<h3 className="text-3xl font-semibold text-gray-900 mb-8">
-							Why Choose Us?
+							Personal Attention
 						</h3>
 						<div className="grid md:grid-cols-3 gap-12">
+							{/* Sub-component 1 */}
 							<div className="relative bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
 								<img
 									src={faculty} // Replace with a real image
-									alt="Experienced Faculty"
+									alt="Individual Learning Plans"
 									className="w-full rounded-lg mb-4"
 								/>
 								<div className="absolute top-0 right-0 m-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm">
-									<FaUniversity />
+									<FaUserGraduate />
 								</div>
 								<h4 className="text-2xl font-semibold text-gray-800 mb-4">
-									Expert Faculty
+									Individual Learning Plans
 								</h4>
 								<p className="text-lg text-gray-600">
-									Learn from the best educators who are experts in their fields,
-									bringing years of industry and research experience.
+									We focus on each student's strengths and areas for
+									improvement, tailoring our teaching methods to fit individual
+									needs. Our approach ensures that every learner gets the
+									attention they deserve.
 								</p>
 							</div>
+							{/* Sub-component 2 */}
 							<div className="relative bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
 								<img
 									src={Infrastructure} // Replace with a real image
-									alt="Modern Campus"
+									alt="One-on-One Mentorship"
 									className="w-full rounded-lg mb-4"
 								/>
 								<div className="absolute top-0 right-0 m-4 bg-green-600 text-white px-4 py-2 rounded-full text-sm">
-									<FaBuilding />
+									<FaHandsHelping />
 								</div>
 								<h4 className="text-2xl font-semibold text-gray-800 mb-4">
-									Modern Infrastructure
+									One-on-One Mentorship
 								</h4>
 								<p className="text-lg text-gray-600">
-									Our campus is designed to foster collaboration, creativity,
-									and learning with modern classrooms and labs.
+									Our dedicated mentors work closely with students, offering
+									guidance and support to help them overcome challenges and
+									achieve their academic and personal goals.
 								</p>
 							</div>
+							{/* Sub-component 3 */}
 							<div className="relative bg-white p-6 rounded-lg shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out">
 								<img
 									src={Opportunities} // Replace with a real image
-									alt="Global Network"
+									alt="Small Class Sizes"
 									className="w-full rounded-lg mb-4"
 								/>
 								<div className="absolute top-0 right-0 m-4 bg-orange-600 text-white px-4 py-2 rounded-full text-sm">
-									<FaGlobeAmericas />
+									<FaChalkboardTeacher />
 								</div>
 								<h4 className="text-2xl font-semibold text-gray-800 mb-4">
-									Networking Opportunities
+									Small Class Sizes
 								</h4>
 								<p className="text-lg text-gray-600">
-									Connect with a vast network of alumni and professionals around
-									the world.
+									We maintain small class sizes to ensure every student has
+									ample opportunity to engage with teachers and receive
+									immediate feedback, fostering a personalized learning
+									environment.
 								</p>
 							</div>
 						</div>

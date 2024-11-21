@@ -1,43 +1,30 @@
 import React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom"; // Import Link for routing
-import reward1 from "../assets/img/reward1.jpg";
-import reward2 from "../assets/img/reward2.jpg";
-import reward3 from "../assets/img/reward3.jpg";
-import reward4 from "../assets/img/reward4.jpg";
-import reward5 from "../assets/img/reward5.jpg";
-import reward6 from "../assets/img/reward6.jpg";
-import reward7 from "../assets/img/reward7.jpg";
-import reward8 from "../assets/img/reward8.jpg";
-import reward9 from "../assets/img/reward9.jpg";
-
+import tour1 from "../assets/img/tour1.jpeg";
+import tour2 from "../assets/img/tour2.jpeg";
+import tour3 from "../assets/img/tour3.jpeg";
+import tour4 from "../assets/img/tour4.jpeg";
+import classroomimg1 from "../assets/img/classroomimg2.jpeg";
+import classrooming2 from "../assets/img/clssroomimg.jpeg";
 const slides = [
 	{
-		image: reward1,
+		image: tour1,
 	},
 	{
-		image: reward2,
+		image: tour2,
 	},
 	{
-		image: reward3,
+		image: tour3,
 	},
 	{
-		image: reward4,
+		image: tour4,
 	},
 	{
-		image: reward5,
+		image: classroomimg1,
 	},
 	{
-		image: reward6,
-	},
-	{
-		image: reward7,
-	},
-	{
-		image: reward8,
-	},
-	{
-		image: reward9,
+		image: classrooming2,
 	},
 ];
 
@@ -60,10 +47,10 @@ export default function Hero() {
 	return (
 		<>
 			<h2 className="text-5xl font-bold text-center bg-gray-200 text-gray-800">
-				Our Achievements
+				Our Tours
 			</h2>
 			<div
-				className="relative h-[50vh] bg-gray-200 w-full overflow-hidden"
+				className="relative h-[80vh] bg-gray-200 w-full overflow-hidden"
 				id="home"
 			>
 				{slides.map((slide, index) => (
@@ -74,10 +61,7 @@ export default function Hero() {
 						}`}
 					>
 						<div className="absolute inset-0 bg-black/4 z-10" />
-						<img
-							src={slide.image}
-							className="object-scale-down w-full h-full"
-						/>
+						<img src={slide.image} className="object-contain w-full h-full" />
 						<div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white text-center px-4"></div>
 					</div>
 				))}
