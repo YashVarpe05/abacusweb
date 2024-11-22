@@ -27,12 +27,7 @@ const slides = [
 	{
 		image: tour1,
 	},
-	{
-		image: tour2,
-	},
-	{
-		image: tour3,
-	},
+
 	{
 		image: tour4,
 	},
@@ -41,6 +36,9 @@ const slides = [
 	},
 	{
 		image: classrooming2,
+	},
+	{
+		image: tour2,
 	},
 	{
 		image: reward1,
@@ -59,6 +57,9 @@ const slides = [
 	},
 	{
 		image: reward6,
+	},
+	{
+		image: tour3,
 	},
 	{
 		image: reward7,
@@ -104,7 +105,7 @@ export default function Hero() {
 
 	return (
 		<>
-			<h2 className="text-5xl font-bold text-center bg-gray-200 text-gray-800 mb-16">
+			<h2 className="text-5xl font-bold text-center bg-gray-200 text-gray-800 mb-6">
 				Gallery
 			</h2>
 			<div

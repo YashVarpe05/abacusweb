@@ -85,42 +85,10 @@ export default function Hero() {
 							className="object-scale-down w-full h-full"
 						/>
 						<div className="absolute inset-0 flex flex-col items-center justify-center z-20 text-white text-center px-4">
-							<h1 className="text-5xl md:text-6xl font-bold mb-4 animate-fade-in">
-								{slide.title}
-							</h1>
-							<p className="text-xl md:text-2xl mb-8 animate-fade-in">
-								{slide.subtitle}
-							</p>
-							<div className="flex space-x-4">
-								<Link
-									to="/programs" // Navigate to Programs page
-									className="bg-indigo-600 text-white px-8 py-3 rounded-md hover:bg-indigo-700 transition"
-								>
-									Explore Programs
-								</Link>
-								<Link
-									to="/about" // Navigate to About page
-									className="bg-white text-indigo-600 px-8 py-3 rounded-md hover:bg-gray-100 transition"
-								>
-									Learn More
-								</Link>
-							</div>
+							<div className="flex space-x-4"></div>
 						</div>
 					</div>
 				))}
-
-				<button
-					onClick={prevSlide}
-					className="absolute left-4 top-1/2 -translate-y-1/2 z-30 bg-white/20 p-2 rounded-full hover:bg-white/30 transition"
-				>
-					<ChevronLeft className="w-6 h-6 text-white" />
-				</button>
-				<button
-					onClick={nextSlide}
-					className="absolute right-4 top-1/2 -translate-y-1/2 z-30 bg-white/20 p-2 rounded-full hover:bg-white/30 transition"
-				>
-					<ChevronRight className="w-6 h-6 text-white" />
-				</button>
 
 				<div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 flex space-x-2">
 					{slides.map((_, index) => (
@@ -135,7 +103,7 @@ export default function Hero() {
 				</div>
 			</div>
 			<div className="relative bg-gray-50 py-16 px-8 md:px-16 lg:px-24">
-				<div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
+				<div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-12">
 					{/* Text Content */}
 					<div className="space-y-6">
 						<h2 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -149,16 +117,16 @@ export default function Hero() {
 						</p>
 						<div className="flex space-x-4">
 							<Link
-								to="/contact"
-								className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition"
+								to="/programs" // Navigate to Programs page
+								className="bg-indigo-600 text-white px-8 py-3 rounded-md hover:bg-indigo-700 transition"
 							>
-								Start Learning
+								Explore Programs
 							</Link>
 							<Link
-								to="/programs"
-								className="bg-white text-indigo-600 px-6 py-3 rounded-md border border-indigo-600 hover:bg-gray-100 transition"
+								to="/about" // Navigate to About page
+								className="bg-white text-indigo-600 px-8 py-3 rounded-md hover:bg-gray-100 transition border border-indigo-600 border-spacing-7"
 							>
-								View Programs
+								Learn More
 							</Link>
 						</div>
 					</div>

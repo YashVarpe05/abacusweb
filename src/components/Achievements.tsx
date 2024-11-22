@@ -13,57 +13,58 @@ import Footer from "./Footer";
 const Achievements = () => {
 	const achievements = [
 		{
-			id: 1,
-			imageUrl: reward1,
-			title: "Award Ceremony 2023",
-			description: "Recognized for outstanding performance.",
-		},
-		{
-			id: 2,
-			imageUrl: reward2,
-			title: "Award Ceremony 2023",
-			description: "Recognized for outstanding performance.",
-		},
-		{
-			id: 3,
-			imageUrl: reward3,
-			title: "Award Ceremony 2023",
-			description: "Recognized for outstanding performance.",
-		},
-		{
-			id: 4,
-			imageUrl: reward4,
-			title: "Award Ceremony 2023",
+			id: 7,
+			imageUrl: reward7,
+			title: "Award Ceremony 2019",
 			description: "Recognized for outstanding performance.",
 		},
 		{
 			id: 5,
 			imageUrl: reward5,
-			title: "Award Ceremony 2023",
+			title: "Award Ceremony 2020",
 			description: "Recognized for outstanding performance.",
 		},
 		{
-			id: 6,
-			imageUrl: reward6,
-			title: "Award Ceremony 2023",
-			description: "Recognized for outstanding performance.",
-		},
-		{
-			id: 7,
-			imageUrl: reward7,
-			title: "Award Ceremony 2023",
+			id: 1,
+			imageUrl: reward1,
+			title: "Best Teacher Award 2021",
 			description: "Recognized for outstanding performance.",
 		},
 		{
 			id: 8,
 			imageUrl: reward8,
-			title: "Award Ceremony 2023",
+			title: "Award Ceremony 2022",
 			description: "Recognized for outstanding performance.",
 		},
 		{
+			id: 6,
+			imageUrl: reward6,
+			title: "Award Ceremony 2022-2023",
+			description: "Recognized for outstanding performance.",
+		},
+		{
+			id: 2,
+			imageUrl: reward2,
+			title: "Award Ceremony 2022-2023",
+			description: "Recognized for outstanding performance.",
+		},
+		{
+			id: 3,
+			imageUrl: reward3,
+			title: "Best Teacher Award 2023",
+			description: "Recognized for outstanding performance.",
+		},
+		{
+			id: 4,
+			imageUrl: reward4,
+			title: "Award Ceremony 2024",
+			description: "Recognized for outstanding performance.",
+		},
+
+		{
 			id: 9,
 			imageUrl: reward9,
-			title: "Award Ceremony 2023",
+			title: "Internation Winners",
 			description: "Recognized for outstanding performance.",
 		},
 
@@ -89,10 +90,9 @@ const Achievements = () => {
 									className="w-full h-56 object-scale-down"
 								/>
 								<div className="p-4">
-									<h3 className="text-lg font-semibold text-gray-900">
+									<h3 className="text-lg font-semibold text-center text-gray-900">
 										{achievement.title}
 									</h3>
-									<p className="text-gray-600">{achievement.description}</p>
 								</div>
 							</div>
 						))}
