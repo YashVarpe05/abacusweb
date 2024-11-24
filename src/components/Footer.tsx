@@ -19,27 +19,8 @@ export default function Footer() {
 						Scripting Elegance , Crafting Characters
 					</p>
 					<div className="flex space-x-4">
-						{/* Social Icons */}
 						<a
-							href="#"
-							className="text-white hover:text-gray-300 transition duration-300"
-						>
-							<i className="fab fa-facebook-f"></i>
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-gray-300 transition duration-300"
-						>
-							<i className="fab fa-twitter"></i>
-						</a>
-						<a
-							href="#"
-							className="text-white hover:text-gray-300 transition duration-300"
-						>
-							<i className="fab fa-linkedin-in"></i>
-						</a>
-						<a
-							href="#"
+							href="https://www.instagram.com/eternal_classes16/profilecard/?igsh=MXNkY2M0bmZnOHJydw=="
 							className="text-white hover:text-gray-300 transition duration-300"
 						>
 							<i className="fab fa-instagram"></i>
@@ -86,13 +67,11 @@ export default function Footer() {
 							</li>
 						</ul>
 						<p className="text-sm">
-							© {new Date().getFullYear()} Your Company Name. All rights
-							reserved.
+							© {new Date().getFullYear()} Eternal classes. All rights reserved.
 						</p>
 					</div>
 				</div>
 
-				
 				{/* Contact Information */}
 				<div className="space-y-4">
 					<h3 className="text-xl font-semibold">Contact Us</h3>
